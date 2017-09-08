@@ -6,10 +6,21 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Sep 2017 09:41:30 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 08 Sep 2017 10:07:19 +0900</lastBuildDate>
     
 	<atom:link href="https://zephiransas.github.io/hugosite/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Second Post</title>
+      <link>https://zephiransas.github.io/hugosite/post/second-post/</link>
+      <pubDate>Fri, 08 Sep 2017 10:07:19 +0900</pubDate>
+      
+      <guid>https://zephiransas.github.io/hugosite/post/second-post/</guid>
+      <description>それでは実際のテストを書いて行きましょう。ここでのテストシナリオは
+ includeTaxメソッドに100を渡した場合に、108が返ってくること  をテストするとします。これをlambda-behaveで書くと、以下のようになります。
+import static com.insightfullogic.lambdabehave.Suite.*; @RunWith(JunitSuiteRunner.class) public class SampleSpec {{ describe(&amp;quot;includeTax&amp;quot;, it -&amp;gt; { it.should(&amp;quot;税込み価格が取得できること&amp;quot;, expect -&amp;gt; expect.that(Sample.includeTax(100)).is(108) ); }); }}  </description>
+    </item>
     
     <item>
       <title>My First Post</title>
